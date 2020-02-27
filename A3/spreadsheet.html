@@ -103,7 +103,7 @@
     let index = 0;
     let children = currentRow.parentElement.children;
     while (children[index] != currentRow) {
-      index++
+      index++;
     }
     if (index != 0) {
      currentRow.parentNode.insertBefore(currentRow, children[index - 1]);
@@ -112,7 +112,7 @@
 
   //Selecting Down Buttons
   let downBtns = tbody[0].getElementsByClassName("downBtn");
-  console.log(downBtns)
+  
   for (let i = 0; i < downBtns.length; i++) {
     downBtns[i].addEventListener("click", moveRowDown)
   };
@@ -124,15 +124,15 @@
     let children = currentRow.parentElement.children;
     while (children[index] != currentRow) {
       index++
-    }
+    };
     if (index != children.length - 1) {
      currentRow.parentNode.insertBefore(children[index + 1], currentRow);
-    }
-  }
+    };
+  };
 
   //Selecting Delete Buttons
   let delBtns = tbody[0].getElementsByClassName("delBtn");
-  console.log(delBtns)
+  
   for (let i = 0; i < delBtns.length; i++) {
     delBtns[i].addEventListener("click", deleteRow)
   };
@@ -141,7 +141,7 @@
   function deleteRow() {
     let currentRow = this.parentElement.parentElement;
     currentRow.parentElement.removeChild(currentRow);
-  }
+  };
 
   //Creating New Row on "Click" Event
   let newRowBtn = document.getElementById("newRowBtn");
@@ -156,7 +156,7 @@
       input.addEventListener('click', highlight);
       field.appendChild(input);
       newRow.appendChild(field);
-    }
+    };
 
     //Creating buttons for the new Row
     let newBtns = document.createElement("td");
@@ -188,5 +188,4 @@
 
 </script>
 </body>
-
 </html>

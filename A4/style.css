@@ -1,0 +1,80 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: Helvetica;
+	background-color: #FF7711;
+	padding: 1rem;
+}
+
+.post {
+	padding: 4px 8px;
+	margin: 8px 0px;
+	border: 1px solid black;
+	width: 600px;
+}
+
+.posting-container {
+	padding: 8px 0px;
+}
+
+h1 {
+	font-size: 1.2rem;
+}
+
+h3 {
+	font-size: 1rem;
+}
+
+h4 {
+	font-size: .8rem;
+}
+
+h5 {
+	font-size: .6rem;
+}
+
+h1, h3, h4, h5, .nav {
+	margin: .5rem 0rem;
+	text-transform: uppercase;
+	color: white;
+}
+
+.nav {
+	font-style: oblique;
+	font-weight: bold;
+}
+
+.title, .creator {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: .6rem;
+	display: inline;
+	font-size: .8rem;
+}
+
+.content {
+	padding: .2rem 0rem;
+}
+
+input[type=text], input[type=password], textarea {
+	background-color: transparent;
+	border: 1px black solid;
+	width: 200px;
+	margin: .5rem 0rem;
+}
+
+textarea {
+	width: 400px;
+}
+
+input[type=submit] {
+	background-color: transparent;
+	padding: .5rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	border: 1px black solid;
+}
