@@ -1,2 +1,2 @@
-# COMP-307-Assignments
-Coursework for COMP307 - Web Development
+# COMP_307
+Coursework for COMP_307 - Web Development
